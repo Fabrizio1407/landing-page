@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+
+.header,
+.footer{
+    background-color: #1F2937;
+}
+
+.header{
+    padding: 5px 400px;
+}
+
+h1.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+}
+
+p.hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+   
+}
+
+.button,
+.button-footer {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+
+.button-footer {
+   border: 1px solid white;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#headerimg {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    
+}
+
+#body1 {
+  padding: 5px 200px;
+  text-align: center;
+}
+
+.quattroimg {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.itemimg {
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#body2 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 400px;
+}
+
+h5 {
+    margin: 0;
+    text-align: right;
+}
+
+#main-footer {
+    padding: 100px  400px;
+    background-image: url('images/bg.jpg');
+}
+
+.blu {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+h4 {
+    margin: 0;
+    line-height: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 30px;
+}
